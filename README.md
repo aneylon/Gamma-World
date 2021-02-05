@@ -1,5 +1,19 @@
 # GammaWorld
 
+Project for resources for playing Gamma World
+
+## Todos
+- [ ] About page
+- [ ] Character sheet 
+- [ ] Random character generator
+- [ ] Save custom or new random character
+- [ ] Story seed generator
+- [ ] Monster generator
+- [ ] User
+- [ ] Non public assets by user
+- [ ] User suggestions
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
 ## Development server
