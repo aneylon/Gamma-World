@@ -25,5 +25,7 @@ export class CharacterListComponent implements OnInit {
     this.characterService.getCharacters()
       .subscribe(characters => this.characters = characters)
   }
-
+  selectCharacter(character): void {
+    this.selectCharacter = character
+  }
 }

@@ -17,4 +17,8 @@ export class CharacterService {
     this.loggingService.add('Character Service: Get Characters')
     return of(Characters)
   }
+
+  getCharacter(id: number) {
+    return of(Characters.find(character => character.id === id))
+  }
 }
