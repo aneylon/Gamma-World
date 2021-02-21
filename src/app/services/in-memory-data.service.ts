@@ -12,7 +12,30 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 3, name: 'Bro' },
       { id: 4, name: 'DudeBro'}
     ]
-    return { characters }
+
+    const origins = [
+      "Android",
+      "Cockroach",
+      "Doppelganger",
+      "Electrokinetic",
+      "Empath",
+      "Felinoid",
+      "Giant",
+      "Gravity Controller",
+      "Hawkoid",
+      "Hypercognitive",
+      "Mind Breaker",
+      "Mind Coercer",
+      "Plant",
+      "Pyrokinetic",
+      "Radioactive",
+      "Rat swarm",
+      "Seismic",
+      "Speedster",
+      "Telekinetic",
+      "Yeti"
+    ]
+    return { characters, origins }
   }
 
   genId(characters: Character[]): number {

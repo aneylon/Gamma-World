@@ -7,6 +7,14 @@ export class RandomService {
 
   constructor() { }
   randomBetween(low: number, high: number): number {
-    return 1
+    let randomNumber = Math.floor((Math.random() * high) + low)
+    return randomNumber
+  }
+
+  rollThreeDSix() : number {
+    let rollOne = this.randomBetween(1,6)
+    let rollTwo = this.randomBetween(1,6)
+    let rollThree = this.randomBetween(1,6)
+    return rollOne + rollTwo + rollThree
   }
 }
