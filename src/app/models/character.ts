@@ -1,5 +1,7 @@
 // class vs interface
 
+import { Abilities } from "./ability";
+
 export class Character {
     id?: number;
     name?: string;
@@ -7,12 +9,16 @@ export class Character {
     originTwo?: string;
     trait?: string;
     power?: string;
+
+    abilities?: Abilities = new Abilities();
+    
     strength?: number;
     dexterity?: number;
     constitution?: number;
     intelegence?: number;
     wisdom?: number;
     charisma?: number;
+
     skill?: string;
     gear?: string;
     hitpoints?: number;

@@ -13,6 +13,7 @@ Project for resources for playing Gamma World
 - [ ] User
 - [ ] Non public assets by user
 - [ ] User suggestions
+- [ ] Discussion board
 
 ## === Later ===
 - [ ] PWA - ng add @angular/pwa
