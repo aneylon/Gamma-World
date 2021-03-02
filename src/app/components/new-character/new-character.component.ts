@@ -25,6 +25,10 @@ export class NewCharacterComponent implements OnInit {
     }
     abilities = abilities.sort(function(a, b){return b-a})
     console.log(abilities)
+    console.log('abilities', this.character.abilities)
+    for(var ability in abilities){
+      console.log('a', abilities[ability])
+    }
     // Determine origins.
     // assign major and minor 18 / 16 respectively, or 20 if same.
     // assign others randomly

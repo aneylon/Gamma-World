@@ -14,6 +14,8 @@ import { CharacterSheetComponent } from './components/character-sheet/character-
 import { NewCharacterComponent } from './components/new-character/new-character.component';
 import { CharacterDetailComponent } from './components/character-detail/character-detail.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { PersonalityGeneratorComponent } from './components/personality-generator/personality-generator.component';
+import { DiscussionListComponent } from './components/discussion-list/discussion-list.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     CharacterSheetComponent,
     NewCharacterComponent,
     CharacterDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PersonalityGeneratorComponent,
+    DiscussionListComponent
   ],
   imports: [
     BrowserModule,

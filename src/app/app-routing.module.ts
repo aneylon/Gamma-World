@@ -5,6 +5,8 @@ import { CharacterDetailComponent } from './components/character-detail/characte
 import { CharacterListComponent } from './components/character-list/character-list.component';
 import { NewCharacterComponent } from './components/new-character/new-character.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { PersonalityGeneratorComponent } from './components/personality-generator/personality-generator.component';
+import { DiscussionListComponent } from './components/discussion-list/discussion-list.component'
 
 const routes: Routes = [
   { path: '', redirectTo: 'about', pathMatch: 'full' },
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'characters', component: CharacterListComponent },
   { path: 'newcharacter', component: NewCharacterComponent },
   { path: 'character/:id', component: CharacterDetailComponent },
+  { path: 'personality', component: PersonalityGeneratorComponent },
+  { path: 'discussion', component: DiscussionListComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
